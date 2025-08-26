@@ -1,16 +1,4 @@
-// public class World extends Thread {
-
-//     @Override
-//     public void run() {
-//         for (;;) {
-//             // System.out.println("World");
-//             System.out.println(Thread.currentThread().getName());
-
-//         }
-//     }
-// }
-
-public class World implements Runnable {
+public class World extends Thread {
 
     @Override
     public void run() {
@@ -21,3 +9,15 @@ public class World implements Runnable {
         }
     }
 }
+
+// public class World implements Runnable {
+
+//     @Override
+//     public void run() {
+//         for (;;) {
+//             // System.out.println("World");
+//             System.out.println(Thread.currentThread().getName());
+
+//         }
+//     }
+// }
